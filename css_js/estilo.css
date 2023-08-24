@@ -1,0 +1,87 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    background-color: lightblue;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    color: indigo;
+    border-bottom: solid 1px black;
+}
+
+button {
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    display: inline-block;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    outline: none;
+    position: relative;
+    margin: 10px;
+
+    white-space: nowrap;
+    border-radius: 16px;
+
+}
+.botoes{
+    text-align: center
+}
+.lightblue{
+    background-color: #7FB0F0;
+    color: #FFF;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+.lightblue:hover{
+    background-color:#7FA0C0;
+}
+.lightbluee{
+    background-color:#7FA0C0;
+}
+.green{
+    background-color: limegreen;
+    color: indigo;
+
+    font-family:"Century Gothic";
+
+}
+.green:hover{
+    background-color: darkgreen;
+    color: #fff;
+}
+.lista-itens {
+    margin-top: 20px;
+    border-top: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produto{
+    border-bottom: solid 1px black;
+    flex: 0 0 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+.produto > .nome{
+    width: auto;
+    margin-right: auto;
+    font-size: 22px;
+    font-weight: bold;
+}
+.produto > div{
+    display: flex;
+   padding: 0 8px 0 8px;
+    justify-content: center;
+    align-items: center;
+}
